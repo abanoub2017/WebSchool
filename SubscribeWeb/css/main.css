@@ -1,0 +1,303 @@
+h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    
+}
+body{
+    padding-top: 55px;
+}
+
+/* Start Navbar */
+
+nav{
+    background-color: #e62117 ;
+    overflow: hidden;
+}
+  /* Start Links */
+.navbar-light .navbar-nav .nav-link{
+    color: #FFF;   
+    margin-right: 24px;
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+    font-size: 16px;
+    font-family: sans;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+ color: #6E6E6E;   
+   
+}
+.navbar-expand-lg .navbar-nav{
+    margin-right: 245px;
+    font-family: sans;
+}
+nav form a{
+  background-color: #fff;
+    margin-right: 14px;
+    line-height: 2.5;
+    border-radius: 5px;
+    font-family: sans;
+    height: 37px;
+    width: 53px;
+   
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+nav form a:hover{
+    color: #000;
+    text-decoration: none;
+}
+nav .arbic{
+    background-color: transparent;
+    margin-right: 26px;
+    border-radius: 6px;
+    color: #000;
+    font-family: sans;
+}
+nav  .arbic:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+/* End Navbar */
+
+/* Start Header */
+
+.header h1{
+    color: #cd201f;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1em;
+    margin: 26px 0 0.5em 0;
+}
+.header p{
+     line-height: 1em;
+    color: #000;
+    font-size: 24px ;
+    font-weight: 100;
+}
+.header p span{
+    color: #646464;
+    font-weight: 400
+}
+/* End Header */
+
+/* Start How It Work */
+.how-it-work{
+    padding-top: 75px;
+    
+}
+.how-it-work p{
+    margin-left: 22px;
+    line-height: 25px;
+    padding-left: 4px;
+    font-size: 1.25em;
+}
+.how-it-work p a{  
+    line-height: 25px;
+    color: #848484;
+    font-size: 1.25em;
+     padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 100;
+   
+}
+.how-it-work p a i{  
+        background: #fff;
+    color: #81BEF7;
+    border-radius: 4px;
+    margin-right: 5px;
+   
+}
+.how-it-work p .btn.focus,
+.btn:focus{  
+    box-shadow:none;
+   
+}
+.how-it-work .collapse .card{
+    height: auto;
+    margin: 0;
+    color: #848484;
+    font-size: 20px;
+}
+
+/* End How It Work */
+
+/* Start channel-name */
+.channel-name{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+.channel-name form{
+        padding-left: 20px;
+    padding-right: 20px;
+}
+
+.channel-name .input-group input{
+        height: 80px;
+    border: #F0F0F0 1px solid;
+    font-size: 34px;
+    background-color: #eee;
+    background: #F2F2F2;
+    font-weight: 100;
+}
+.channel-name .form-control:focus{
+ box-shadow: 0 0 0 2px #e89980;
+}
+
+.channel-name .input-group-btn button{
+        height: 80px;
+    border-radius: 0;
+    background: #000;
+    width: 109px;
+    transition: all .3s ease-in-out;
+}
+.channel-name .input-group-btn button:hover{
+     background-color:#e62117;
+}
+.channel-name .input-group-btn button i{
+        color: #fff;
+}
+/* End channel-name */
+
+/* Start Some-channel */
+.some-channel{
+    padding: 78px 0;
+}
+.some-channel h3{
+    color: #cd201f;
+    margin-bottom: 39px;
+}
+.some-channel a{
+        color: #424242 ;
+    font-size: 18px;
+    padding-left: 10px;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+/* End Some-channel */
+
+/* Start About */
+.about{
+    
+}
+.about p{
+    margin: 0 auto;
+    width: 100%;
+    color: #968d8d;
+    font-size: 17px;
+}
+/* End About */
+
+/* Start Footer */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.footer .sub{
+   margin-bottom: 20px; 
+}
+.footer .sub p{
+    display: inline-block;
+    color: #968d8d;
+        font-size: 18px;
+    
+}
+.footer .sub p a{
+    text-decoration: none;
+    color: #968d8d;
+    padding-left: 10px;
+}
+.footer .sub p a:hover{
+    text-decoration:underline;
+    
+}
+.footer .down-footer {
+     display: flex;
+    justify-content: space-around;
+}
+.footer .down-footer p{
+    color: #968d8d;
+    border-right: 1px solid #b1b1b1; 
+    padding-right: 12px;
+        font-size: 18px;
+}
+.footer .down-footer p a {
+    text-decoration: none;
+    color: #968d8d;
+}
+.footer .down-footer p a:hover {
+    text-decoration: underline;
+}
+/* End Footer */
+
+/* Start social-sharing */
+.icon-bar {
+  position: fixed;
+  bottom: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+    width: 35px;
+    height: 40px;
+        
+}
+
+.icon-bar a:hover {
+       background-color: #00000059;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.whatsapp {
+  background: #12AF0A;
+  color: white;
+}
+
+/* End social-sharing */
+
+/* Start Buy-Sub*/
+.buy-sub{
+        margin-top: -53px;
+    padding-bottom: 100px;
+}
+.buy-sub h1{
+    color: #cd201f;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1em;
+    margin: 26px 0 0.5em 0;
+}
+.buy-sub p{
+    line-height: 1em;
+  color: #00000075;
+    font-size: 24px ;
+    font-weight: 100;
+}
+/* End Buy-Sub*/
